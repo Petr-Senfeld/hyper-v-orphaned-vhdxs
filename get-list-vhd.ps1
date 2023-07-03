@@ -1,0 +1,1 @@
+Get-VM -VMName zobec* | Select-Object -Property VMId | Get-VHD | Select-Object Path, VhdFormat, VhdType, FileSize
